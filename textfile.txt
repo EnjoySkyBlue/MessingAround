@@ -1,3 +1,5 @@
 This is a Test
 
 Git test Branch
+
+Adding another message to the textfile
