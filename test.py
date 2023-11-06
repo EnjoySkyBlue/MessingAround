@@ -8,7 +8,7 @@ class InvSlot:
 
 
 class Inventory:
-    def __init__(self) -> None:
+    def __init__(self, inv: InvSlot) -> None:
         pass
 
 
