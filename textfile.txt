@@ -1,5 +1,3 @@
-This is a Test
+The idea is to simulate a basic inv system.
 
-Git test Branch Dev branch
-
-Adding another message to the textfile
+Ideally this could run and save characters and information.
