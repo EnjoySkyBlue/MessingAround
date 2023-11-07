@@ -1,3 +1,1 @@
-Adding info to the readme
-
-Another line
+This project file for testing code and using Github
