@@ -31,7 +31,7 @@ class Inventory:
     
     inv_list:list
     
-    def __init__(self, inv_list: list = [None*25]) -> None:
+    def __init__(self, inv_list: list = [None for i in range(25)]) -> None:
         self.inv_list = inv_list
 
     def additem(self, item:Item, position = 26):
