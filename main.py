@@ -6,6 +6,8 @@ backpack = Inventory()
 
 print(len(backpack.inv_list))
 
+# Need to make character class
+
 
 
 
