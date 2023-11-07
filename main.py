@@ -1,9 +1,10 @@
 from test import *
-from Dir1 import subfile
+from character.inventory import Inventory, Item, InvSlot
 
 
-subfile.testfunc()
+backpack = Inventory()
 
+print(backpack.inv_list)
 
 
 
