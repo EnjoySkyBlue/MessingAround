@@ -4,7 +4,7 @@ from character.inventory import Inventory, Item, InvSlot
 
 backpack = Inventory()
 
-print(backpack.inv_list)
+print(len(backpack.inv_list))
 
 
 
