@@ -1,1 +1,1 @@
-This project file for testing code and using Github
+This project file for testing code and getting used to using Github
