@@ -5,7 +5,6 @@ class Item:
     name:str
     item_type:str
     stackable:bool
-    amount:int
     stats: dict
     descripton:str
 
@@ -14,4 +13,16 @@ class Item:
         self.item_type = item_type
         self.stackable = stackable
         self.amount = amount
-        self.desccription = descripton
+        self.description = descripton
+
+    def __str__(self):
+        return f"{self.name}"
+
+    def get_data(self):
+        return {
+            "name": self.name,
+            "item_type": self.item_type,
+            "stackable": self.stackable,
+            "amount": self.amount,
+            "description": self.description
+        }

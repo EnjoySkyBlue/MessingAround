@@ -5,21 +5,19 @@ class InvSlot:
     item: Item
     enabled: bool
     has_item: bool
+    amount: int
 
-    def __init__(self, item = None) -> None:
+    def __init__(self, item = None, amount = 0) -> None:
         if type(item) == Item:
-            self.add_item(item)
-            self.has_item = True
+            self.insert_item(item)
         else:
             self.has_item = False
+        self.amount = amount
 
-    def __str__(self):
-        if not self.has_item:
-            return "This slot does not contain an item"
-        return self.item
-
-    def add_item(self, item:Item):
+    def insert_item(self, item:Item, amount = 1):
+        self.amount += amount
         self.item = item
+        self.has_item = True
         return item
     
 
