@@ -20,6 +20,6 @@ from package2 import *
 
 """
 
-# in the __init__ file, all this code is ran first and once when the package is loaded in.
+# # in the __init__ file, all this code is ran first and once when the package is loaded in.
 
-print("Hello from the init file!")
+# print("Hello from the init file!")
